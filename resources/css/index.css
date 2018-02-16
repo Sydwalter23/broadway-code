@@ -8,7 +8,7 @@ body { background-image: url("https://s3.amazonaws.com/codecademy-content/progra
       }
 
 h1 {
-  color: pink;
+  color: white;
   font-family: Helvetica;
   font-weight: bold;
   font-size: 70px;
@@ -27,9 +27,11 @@ h4 {
 li {
   font-size: 18px;
   text-align: center;
-  padding: 5px 0;
   font-family: Helvetica;
   list-style-type: none;
+  color: white;
+  padding: 0px;
+
   }
 
 p{
@@ -39,5 +41,15 @@ p{
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: white;
+}
+.bottom {
+     background-color: DimGray;
+     display: inline;
+     margins: 0;
+     padding: 2px;
+     float: left;
+     font-size: 18px;
+     font-family: Helvetica;
 }
