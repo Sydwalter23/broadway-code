@@ -1,48 +1,62 @@
 html {
-  font-family: Helvetica;
-  text-align: center;
+     text-align: center;
+     font-familyL Helvetica;
 
 }
 
 body { background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
        background-repeat: no-repeat;
-      }
+     }
 
 h1 {
   color: white;
   font-family: Helvetica;
   font-weight: bold;
   font-size: 70px;
+  margin:  15px;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
+
 h3 {
    font-family: Helvetica;
    font-size: 32px;
    font-weight: bold;
    padding: 0px;
 }
-h5 {
-   font-family: Helvetica;
-   font-size: 23px;
-   font-weight: bold;
-   padding: 0px;
-}
+
 h4,
 image {
       background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png")
       }
+
 h4 {
-   color: white;
+    color: white;
+    font-size: 23px;
+    padding: 0px;
+   }
+
+h5 {
+   font-family: Helvetica;
    font-size: 23px;
+   font-weight: bold;
+   margin: 20px 30px;
    padding: 0px;
 }
 
 li {
-  font-size: 18px;
-  text-align: center;
-  font-family: Helvetica;
-  list-style-type: none;
   color: white;
-  padding: 0px;
+  font-family: Helvetica;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 10px 5px;
+  padding: 2px;
+  text-align: center;
+  }
+
+a {
+    text-decoration: underline;
+    color: white;
   }
 
 p {
@@ -50,13 +64,8 @@ p {
   font-size: 14px;
   text-align: center;
   padding: 0px;
-  margins: auto;
+  margin-bottom: 20px 30px;
 }
-
-a {
-  text-decoration: underline;
-  color: white;
-  }
 
 .copy {
     text-align: left;
@@ -65,21 +74,26 @@ a {
     background-color: DimGray;
     width: 320px;
     display: inline;
-    margins: auto;
-  }
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
 .bottom {
      display: inline;
-     padding: 3px;
+     padding-top: 0px;
+     padding-right: 1px;
+     padding-left: 0px;
      float: left;
      font-size: 18px;
      font-family: Helvetica;
      text-align: left;
      background-color: DimGray;
-     margins: auto;
+     margin: auto;
+     width: 60px;
    }
+
 div {
     background-color: DimGray;
     text-align: left;
-    margins: auto;
-
-}
+    }
